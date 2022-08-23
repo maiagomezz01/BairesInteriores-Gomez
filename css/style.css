@@ -35,10 +35,26 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 /*listado del menú*/
 
 ul li{
+   
     padding-left: 30px;
-    display: inline;
+   display: inline;
+  
 
     }
+
+ul li:hover{
+
+ border-radius: 5px;
+ opacity: 0.7;
+}
+
+li{
+    margin: 5%;
+    padding-right:  5%;
+}
+
+
+   
     /*body*/
 .bodyHome {
     
@@ -108,7 +124,7 @@ ul li{
 
 /*Body*/
 .bodyServicios{
-background-color: beige;
+background-image: linear-gradient(to right, gainsboro,white);
 
 }
 /*Estructura de las imágenes*/
@@ -141,6 +157,9 @@ background-color: beige;
 
     height: 250px;
     width: 250px;
+}
+.imagenServicios:hover{
+    transform: scale(1.2);
 }
 /*Tablas*/
 
@@ -257,7 +276,6 @@ background-color: beige;
     font-size: 40px;
     padding-right: 20%;
     padding-left: 0%;
-    padding-bottom: 10;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
     white-space: normal;
