@@ -32,7 +32,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     
     
 }
-/*listado del menú*/
+/*listado del menú
 
 ul li{
    
@@ -52,7 +52,7 @@ li{
     margin: 5%;
     padding-right:  5%;
 }
-
+*/
 
    
     /*body*/
@@ -85,7 +85,7 @@ li{
   
     width: 100%;
     
-    /*position: absolute;*/
+    /*position: absolute;
     top: 0%;
    
     background-color: lavender;
@@ -93,10 +93,25 @@ li{
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
+    background-color: lavender;
     
     
 }
+.nav justify-content-end{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav justify-content-end:hover{
+    background-color: white;
+    opacity: 0.7;
+
+   
+}
+.h1 .h2{
+    font-size: 40%;
+}
+
+
 
 
  
@@ -118,6 +133,7 @@ li{
     
 
 }
+
 
 
 /* Servicios */
