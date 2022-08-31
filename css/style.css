@@ -7,50 +7,41 @@
 /* Home */ 
 
 
-.headerr{
-    
-    background-color: white;
-    justify-content: space-between;
+.carousel-item{
+
+height: 100%;
 
 }
-    
-    
-    
+.navbar-brand{
 
-/*.nav justify-content-end{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+   
 }
-.nav justify-content-end:hover{
-    background-color: white;
+.nav-link:hover{
+
     opacity: 0.7;
+}
 
-   
-}*/
+.menu1{
 
-
-
-
-
-
- 
-   /*footer*/
-
-
-
-.imagenFooter{
-
-    height: 50px;
-    width: 50px;
-    margin: 0%;
+    margin-left: 2%;
 
 }
-.footer{
-   
+.menu2{
+
     display: flex;
-    justify-content: space-between;
-    
-
+    justify-content: end;
 }
+
+
+/*carousel*/
+
+
+
+
+/*footer*/
+
 
 
 
@@ -79,7 +70,7 @@ background-image: linear-gradient(to right, gainsboro,white);
     font-size: 400%;
     margin-top: 10%;
     margin-bottom: 10%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     
     
 
@@ -128,7 +119,7 @@ background-image: linear-gradient(to right, gainsboro,white);
 .tituloProceso{
     
    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 10%;
@@ -140,7 +131,7 @@ background-image: linear-gradient(to right, gainsboro,white);
 .relevamientoTitulo{
 
     font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 
 
 }
@@ -148,7 +139,7 @@ background-image: linear-gradient(to right, gainsboro,white);
 .relevamiento{
 
    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     text-align: center;
     display: flex;
     
@@ -158,7 +149,7 @@ background-image: linear-gradient(to right, gainsboro,white);
 }
 .relevamientoParrafo{
     
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 18px;
     padding-left: 10%;
     padding-right: 5%;
@@ -210,7 +201,7 @@ background-image: linear-gradient(to right, gainsboro,white);
     font-size: 40px;
     padding-right: 20%;
     padding-left: 0%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     position: relative;
     white-space: normal;
     
@@ -220,56 +211,32 @@ background-image: linear-gradient(to right, gainsboro,white);
 
   .bodyContacto{
 
-    background-color: beige;
+    background-color: rgb(231, 231, 229);
   }
 
   .formulario{
     margin-top: 20px;
     margin-bottom: 50px;
     font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
   }
   .formulario2{
 
     margin-bottom: 10%;
   }
+  .contacto{
+
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
   /* Media Query 320px, 768px, 1200px */
-
+   
 
    @media screen and (max-width: 320px) {
     /* Home*/
      
-    /* Menú Hamburguesa */
-
-
-    .bodyHome{
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .tituloHome{
-        font-size: 30px;
-    }
-    .interiorDesign{
-        font-size: 20px;
-    }
-    .bairesDiv{
-        margin-bottom: 50%;
-    }
-    .imagenFooter{
-      width: 20px;
-      height: 20px;
-    }
-    .contactanos {
-        font-size: 10px;
-    }
-    .seguinos{
-
-        font-size: 10px;
-    }
-    .footerBaires{
-        font-size: 5px;
-    }
+   
     /* Servicios */
 
     .tituloServicios{
@@ -296,7 +263,14 @@ background-image: linear-gradient(to right, gainsboro,white);
     
    @media screen and (max-width:768px) {
 
-    /* El Home se adapta perfectamente*/
+    /* Home */
+
+    .container-fluid{
+
+     display: flex;
+     justify-content: space-between;
+
+    }
      
     /*Servicios*/
 
@@ -308,6 +282,9 @@ background-image: linear-gradient(to right, gainsboro,white);
 
         display: grid;
         grid-template-columns: (1,1fr);
+
     }
+
     /* Media Query 1200px se adapta completamente*/
    }
+  
