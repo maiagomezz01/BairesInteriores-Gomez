@@ -1,0 +1,43 @@
+//variables
+$font-family:'Red Hat Display';
+$background-colorbody: rgb(230, 211, 211);
+
+
+.bodyProceso{
+
+    background-color: $background-colorbody;
+
+}
+.tituloProceso{
+    margin-bottom: 8%;
+    margin-top: 5%;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    font-family: $font-family;
+}
+
+.relevamiento{
+    margin-bottom: 20%;
+    margin-left:550px;
+    margin-right:550px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+ 
+    .relevamientoTitulo{
+        margin-bottom: 10%;
+        font-family:$font-family;
+        font-size: 40px;
+        
+      .relevamientoParrafo{
+
+       font-family:$font-family;
+       font-size: 25px;
+       
+      }
+    }
+ 
+}
